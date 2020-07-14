@@ -1,0 +1,47 @@
+@import "invoice/variables";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+}
+.header {
+  width: 100%;
+  padding: 2rem 0 2rem 0;
+  background: $color-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    text-align: center;
+    color: $color-black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+  }
+  .title {
+    color: $color-primary-text;
+    font-size: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-black;
+  }
+}
+
+.logo-container{
+    padding: 1rem;
+    width: 100%;
+    border-bottom: 2px solid $color-primary;
+    display: flex;
+    justify-content: space-between;
+}
